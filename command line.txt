@@ -1,0 +1,9 @@
+npm gulp@3.9.1 --save-dev
+npm i gulp-concat gulp-sass gulp-autoprefixer gulp-pug gulp-livereload gulp-notify gulp-sourcemaps gulp-minify --save-dev
+npm i static-server
+
+
+<link rel="stylesheet" href="css/all.min.css"/>
+<link rel="stylesheet" href="css/Normalize.css"/>
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">     
