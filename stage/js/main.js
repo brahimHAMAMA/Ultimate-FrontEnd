@@ -13,5 +13,9 @@ $(function(){
     //$(".toggle-fullscreen").on("click",function(){
 
     //)};
-
+    
+    $('.hide-settings').click(function(){
+        $(this).find('i').toggleclass("fa-span");
+        $(this).parent().toggleclass('hide-settings');
+    });
 });
