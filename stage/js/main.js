@@ -9,4 +9,9 @@ $(function(){
         $(this).find("fa-angle-right").toggleclass("down");
         $(this).next(".child-links").slideToggle();
     });
+    // Toggle fullscreen
+    $(".toggle-fullscreen").on("click",function(){
+
+    )};
+
 });

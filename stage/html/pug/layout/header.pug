@@ -1,7 +1,7 @@
 .header
   i.fas.fa-exchange-alt.fa-lg.toggle-sidebar
   .dropdown.notifications-container
-    i.fas.fa-bell.fa-lg.toggle-notifications#notifications(data-bs-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+    i.fas.fa-bell.fa-lg.header-icon.toggle-notifications#notifications(data-bs-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
     .dropdown-menu(aria-labelledby='notifications')
       .noti-head
         | Notifications
@@ -18,10 +18,10 @@
             i.far.fa-thumbs-up.fa-lg
               | You Got Like From Bla Bla Bla
           li
-            i.far.fa-envlope.fa-lg
+            i.fab.fa-amazon-pay.fa-lg
               | You Got Email From Bla Bla Bla
           li
-            i.far.fa-envlope.fa-lg
+            i.fab.fa-apple-pay.fa-lg
               | You Got Email From Bla Bla Bla
-
-      .noti-foot.text-center: a(href="#") View All Notifications 
+      .noti-foot.text-center: a(href="#") View All Notifications
+  i.fas.fa-expand-alt.fa-lg.toggle-fullscreen.header-icon
