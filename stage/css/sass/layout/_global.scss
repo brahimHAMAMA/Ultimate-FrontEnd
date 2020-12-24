@@ -7,7 +7,7 @@ body {
 .page {
   min-height: 100vh;
   .content-area {
-    width: 80%; //calc(100%-250px);
+    width: 80%; //calc(100% - $sidebar-width);
     min-height: 100vh;
     transition: 0.3s;
     float: right;
@@ -18,3 +18,4 @@ body {
     }
   }
 }
+//$sidebar-width: 250px;

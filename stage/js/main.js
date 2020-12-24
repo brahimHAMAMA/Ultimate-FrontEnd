@@ -10,8 +10,8 @@ $(function(){
         $(this).next(".child-links").slideToggle();
     });
     // Toggle fullscreen
-    $(".toggle-fullscreen").on("click",function(){
+    //$(".toggle-fullscreen").on("click",function(){
 
-    )};
+    //)};
 
 });
