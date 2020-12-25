@@ -18,7 +18,7 @@ $(function(){
         $(this).find('i').toggleclass("fa-span");
         $(this).parent().toggleclass('hide-settings');
     });
-    // Szitch Colors theme
+    // Switch Colors theme
     var themesClasses = [];
     $(".color-options li").each(function(){
         themesClasses.push($(this).data("theme"));
@@ -29,6 +29,13 @@ $(function(){
         .removeclass(themesClasses.join(" "))
         .addClass($(this).data("theme"));
     });
+    // Switch Fonts theme
+    var fontClasses = [];
+    $(".fonts-options select option").each(function(){
+        fontClasses.push($(this).val());
+    });
 
-
+    $(".fonts-options select").on("change", function(){
+        $("body").removeclass(fontClasses.join(" ")).addClass($(this).find("option:selected").val());
+    });
 });
