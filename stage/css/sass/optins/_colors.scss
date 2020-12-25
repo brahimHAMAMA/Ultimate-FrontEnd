@@ -17,8 +17,12 @@ $themes: (
 );
 @each $theme, $map in $themes {
   .#{$theme} {
-    .classname {
-      color: map-get($map, color);
+    $color: map-get($map, color);
+    .page .page-head .page-title {
+      color: $color;
+    }
+    .page .sidebar .links-area .child-links a:hover::before {
+      background-color: $color;
     }
   }
 }
