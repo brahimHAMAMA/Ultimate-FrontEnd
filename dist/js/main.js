@@ -9,6 +9,23 @@ $(function(){
         $(this).find("fa-angle-right").toggleclass("down");
         $(this).next(".child-links").slideToggle();
     });
+    // Toggle fullscreen
+    //$(".toggle-fullscreen").on("click",function(){
+
+    //)};
+    // Toggle Settings    
+    $('.hide-settings').click(function(){
+        $(this).find('i').toggleclass("fa-span");
+        $(this).parent().toggleclass('hide-settings');
+    });
+    // Szitch Colors theme
+    $('.color-options li').click(function(){
+        $("body")
+        .removeclass("")
+        .addClass($(this).data("theme"))
+    });
+
+
 });
 const myMap = new Map();
 
